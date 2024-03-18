@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập đăng kí</title>
+</head>
+<body>
+    <table width="700">
+        <h3>Đăng kí thông tin người sử dụng</h3>
+        <tr>
+            <th align="left">Tên đăng nhập</th>
+            <td><input type="text" name="username" id="username" size="25"></td>
+        </tr>
+        <tr align="left">
+            <th>Mật khẩu</th>
+            <td><input type="password" name="password" id="password" size="25"></td>
+        </tr>
+        <tr>
+            <th align="left">Nhập lại mật khẩu</th>
+            <td><input type="password" name="password" id="password" size="25"></td>
+        </tr>
+        <tr>
+            <th align="left">Email</th>
+            <td><input type="text" name="email" id="rmail" size="35"></td>
+        </tr>
+        <tr>
+            <th align="left">Giới tính</th>
+            <td>
+                <input type="radio" name="gender" id="male"><label for="Nam" value="1">Nam</label>
+                <input type="radio" name="gender" id="female"><label for="Nu" value="0">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <th align="left">Độ tuổi</th>
+            <td>
+                <input type="radio" name="age" id="ageunder13" value="1"><label for="under13">Dưới 13 tuổi</label>
+                <input type="radio" name="age" id="age13_17" value="1"><label for="13_17">Từ 13 đến 17 tuổi</label>
+                <input type="radio" name="age" id="age18_25" value="1"><label for="18_25">Từ 18 đến 25 tuổi</label>
+                <input type="radio" name="age" id="ageover25" value="1"><label for="over25">Trên 25 tuổi</label>
+            </td>
+        </tr>
+        <tr>
+            <th align="left">Nghề nghiệp</th>
+            <td>
+                <select name="" id="job">
+                    <option value="">Chọn nghề nghiệp</option>
+                    <option value="">Nhân viên văn phòng</option>
+                    <option value="">Học sinh</option>
+                    <option value="">Sinh viên</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th align="left">Sở thích của bạn</th>
+            <td>
+                <input type="checkbox" name="hobby" id="music"><label for="music">Âm nhạc</label>
+                <input type="checkbox" name="hobby" id="game"><label for="game"> Game</label>
+                <input type="checkbox" name="hobby" id="sport"><label for="sport">Thể thao</label>
+                <input type="checkbox" name="hobby" id="travel"><label for="travel">Du lịch</label>
+            </td>
+        </tr>
+        <tr>
+            <th align="left">Mô tả về bản thân</th>
+            <td><textarea name="desc" id="desc" size="30" cols="30" rows="3" placeholder="Mô tả về bản thân bạn..."></textarea></td>
+        </tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="Đăng kí" id="register">
+             <input type="reset" value="Làm lại" id="reset"></td>
+       </tr>
+
+    </table>
+    
+</body>
+</html>
